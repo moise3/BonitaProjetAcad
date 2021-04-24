@@ -5,7 +5,7 @@ Travaux pratiques MET5312
 
 - [x] Le modèle BPMN
 - [x] Le modèle de classes
-- [ ] Le modèle de données métier
+- [x] Le modèle de données métier
 - [ ] Les Formulaires web
 - [ ] La structure organisationnelle
 
