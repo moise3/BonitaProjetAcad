@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_wGMgsKUKEeu93cMDF30cgA" name="BeauteInc-BPMN" author="moise" bonitaVersion="7.12.1" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_wGMgsaUKEeu93cMDF30cgA" name="Client" displayName="Client">
-      <elements xmi:type="process:Lane" xmi:id="_wGMgsqUKEeu93cMDF30cgA" name="Employee lane" actor="_wGMgy6UKEeu93cMDF30cgA">
+      <elements xmi:type="process:Lane" xmi:id="_wGMgsqUKEeu93cMDF30cgA" name="Client" actor="_wGMgy6UKEeu93cMDF30cgA">
         <elements xmi:type="process:StartEvent" xmi:id="_wGMgs6UKEeu93cMDF30cgA" name="Acceder a la page" outgoing="_wGMgyKUKEeu93cMDF30cgA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_wGMgtKUKEeu93cMDF30cgA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_wGMgtaUKEeu93cMDF30cgA" name="" content="" returnTypeFixed="true"/>
@@ -66,6 +66,7 @@
         <condition xmi:type="expression:Expression" xmi:id="_SJSLkqULEeu93cMDF30cgA" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_wGMgy6UKEeu93cMDF30cgA" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_fA6zQKU1Eeu93cMDF30cgA" name="Actor1"/>
       <contract xmi:type="process:Contract" xmi:id="_wGMgzKUKEeu93cMDF30cgA"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_wGMgzaUKEeu93cMDF30cgA">
         <name xmi:type="expression:Expression" xmi:id="_wGMgzqUKEeu93cMDF30cgA" content="" returnTypeFixed="true"/>

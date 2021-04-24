@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.12.1">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Client">
+            <fields>
+                <field type="STRING" length="255" name="nomutilisateur" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="motdepasse" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Confirmationrdv">
+            <fields>
+                <field type="STRING" length="255" name="miseajouredv" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Personne">
+            <fields>
+                <field type="STRING" length="255" name="nom" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="prenom" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="courriel" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="numtel" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="codepostal" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="adresse" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Rendezvous">
+            <fields>
+                <field type="LOCALDATE" length="255" name="daterdv" nullable="false" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="heurerdv" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Service">
+            <fields>
+                <field type="STRING" length="255" name="nomservice" nullable="false" collection="false"/>
+                <field type="FLOAT" length="255" name="prix" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="description" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Visiteur">
+            <fields>
+                <field type="STRING" length="255" name="visiteur" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
