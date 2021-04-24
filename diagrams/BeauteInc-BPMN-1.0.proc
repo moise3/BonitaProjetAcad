@@ -90,7 +90,7 @@
       </searchIndexes>
     </elements>
     <elements xmi:type="process:Pool" xmi:id="_UFbIIKULEeu93cMDF30cgA" name="Salon" displayName="Salon">
-      <elements xmi:type="process:Lane" xmi:id="_bhfREKULEeu93cMDF30cgA" name="Gestionnaire">
+      <elements xmi:type="process:Lane" xmi:id="_bhfREKULEeu93cMDF30cgA" name="Gestionnaire" actor="_uJgREKU3Eeu93cMDF30cgA">
         <elements xmi:type="process:StartMessageEvent" xmi:id="_i4TGkKULEeu93cMDF30cgA" name="Recevoir la confirmation" outgoing="_pdXWEKULEeu93cMDF30cgA" event="Confirmation" incomingMessag="_LiLp0KUNEeu93cMDF30cgA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_i4TtoaULEeu93cMDF30cgA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_i4TtoKULEeu93cMDF30cgA" name="" content="" returnTypeFixed="true"/>
@@ -147,7 +147,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_vyXT06UMEeu93cMDF30cgA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_cYfxkKULEeu93cMDF30cgA" name="Estheticienne">
+      <elements xmi:type="process:Lane" xmi:id="_cYfxkKULEeu93cMDF30cgA" name="Estheticienne" actor="_zBZNEKU3Eeu93cMDF30cgA">
         <elements xmi:type="process:ServiceTask" xmi:id="_OU9v8KUMEeu93cMDF30cgA" name="Recevoir le RDV" outgoing="_URy6wKUMEeu93cMDF30cgA" incoming="_OVCocKUMEeu93cMDF30cgA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_OU9v8qUMEeu93cMDF30cgA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_OU9v8aUMEeu93cMDF30cgA" name="" content="" returnTypeFixed="true"/>
@@ -217,6 +217,8 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_emKc0KUoEeu93cMDF30cgA"/>
         <condition xmi:type="expression:Expression" xmi:id="_6fiiAaUpEeu93cMDF30cgA" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
+      <actors xmi:type="process:Actor" xmi:id="_uJgREKU3Eeu93cMDF30cgA" documentation="gestionnaire du salon" name="Gestionnaire"/>
+      <actors xmi:type="process:Actor" xmi:id="_zBZNEKU3Eeu93cMDF30cgA" documentation="employe" name="Estheticienne"/>
       <contract xmi:type="process:Contract" xmi:id="_UFbINKULEeu93cMDF30cgA"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_UFbIIaULEeu93cMDF30cgA">
         <name xmi:type="expression:Expression" xmi:id="_UFbIIqULEeu93cMDF30cgA" content="" returnTypeFixed="true"/>
