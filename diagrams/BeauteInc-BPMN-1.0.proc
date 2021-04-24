@@ -214,7 +214,7 @@
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_emFkUKUoEeu93cMDF30cgA" name="Oui" target="_KdIiwKUMEeu93cMDF30cgA" source="_6vnlYKUpEeu93cMDF30cgA">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_emKc0KUoEeu93cMDF30cgA"/>
-        <condition xmi:type="expression:Expression" xmi:id="_6fiiAaUpEeu93cMDF30cgA" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_6fiiAaUpEeu93cMDF30cgA" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <contract xmi:type="process:Contract" xmi:id="_UFbINKULEeu93cMDF30cgA"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_UFbIIaULEeu93cMDF30cgA">
