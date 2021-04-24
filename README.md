@@ -13,4 +13,4 @@ Travaux pratiques MET5312
 ![Digramme BPMN](/images/BeauteInc-BPMN-1.0.png)
 
 ### Diagramme de classe
-![Digramme BPMN](/images/BeauteInc-UML.jpg)
+![Digramme BPMN](/images/BeauteInc-UML.png)
